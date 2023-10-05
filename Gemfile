@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 
-# Bundle edge Rails instead: gem 'rails', '>= 7.0.4.3', github: 'rails/rails'
+# Bundle edge Rails instead: gem 'rails', '>= 7.1.0', '>= 7.0.4.3', github: 'rails/rails'
 gem 'rails'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -43,7 +43,7 @@ end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
-  gem 'web-console'
+  gem 'web-console', '>= 4.2.1'
   gem 'listen'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
