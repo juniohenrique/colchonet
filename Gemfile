@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 
-# Bundle edge Rails instead: gem 'rails', '>= 7.0.4.3', github: 'rails/rails'
+# Bundle edge Rails instead: gem 'rails', '>= 7.1.0', '>= 7.0.4.3', github: 'rails/rails'
 gem 'rails'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
